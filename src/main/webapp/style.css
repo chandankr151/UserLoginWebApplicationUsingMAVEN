@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+	font-family:cursive;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+	color: darkcyan;
+}
+
+form {
+	padding: 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+	border-radius: 10px;
+	width: 85%;
+	max-width: 450px;
+	min-width: 350px;
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input,button{
+	width: 60%;
+	border: 1px solid;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 10px;
+}
+
+button:hover{
+	background-color: aliceblue;
+	cursor:pointer;
+}
